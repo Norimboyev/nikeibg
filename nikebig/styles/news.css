@@ -1,0 +1,89 @@
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.news__desc {
+    display: flex;
+    position: relative;
+    gap: 14px;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.news__desc-title {
+    font-family: 'Roboto-Bold';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #2E2E3C;
+}
+
+.news__desc-link {
+    position: relative;
+    right: 0;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #fff;
+    padding: 7px 10px;
+    background: #9A98EA;
+    border-radius: 4px;
+}
+
+.news__cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.news__cards-card {
+    width: 350px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    border: 1px solid #D7D6DC
+}
+
+.news__cards-card-title {
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #2E2E3C;
+}
+
+.news__cards-card-text {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: justify;
+    color: #9B9B9B;
+}
+
+.news__cards-card-btn {
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #050505;
+    padding: 11px 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #DFC900;
+    transition: 0.3s;
+}
+
+.news__cards-card-btn:hover {
+    color: #DFC900;
+    background: #050505;
+}

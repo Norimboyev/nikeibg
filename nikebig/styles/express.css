@@ -1,0 +1,66 @@
+.product5 {
+  margin: 40px 0 50px;
+}
+.express {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+.express__title {
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 18px;
+  color: rgba(46, 46, 60, 1);
+  padding: 9px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 4px;
+}
+.express__cards {
+  display: flex;
+  gap: 30px;
+}
+.express__cards-card1 {
+  background: url(../img/exp1.png) no-repeat center/cover;
+  width: 350px;
+  height: 502px;
+  position: relative;
+  padding: 15px;
+}
+.express__cards-card2 {
+  background: url(../img/exp2.png) no-repeat center/cover;
+  width: 350px;
+  height: 502px;
+  position: relative;
+  padding: 15px;
+}
+.express__cards-card3 {
+  background: url(../img/exp3.png) no-repeat center/cover;
+  width: 350px;
+  height: 502px;
+  position: relative;
+}
+.express__cards-card-link {
+  position: absolute;
+  font-family: "Roboto-Bold", sans-serif;
+  left: 15px;
+  bottom: 15px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  color: transparent;
+  width: 320px;
+  flex-wrap: wrap;
+  transition: 0.3s;
+}
+.express__cards-card1:hover .express__cards-card-link {
+  color: rgba(255, 255, 255, 1);
+}
+.express__cards-card2:hover .express__cards-card-link {
+  color: rgba(255, 255, 255, 1);
+}
+.express__cards-card3:hover .express__cards-card-link {
+  color: rgba(255, 255, 255, 1);
+}

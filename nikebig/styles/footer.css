@@ -1,0 +1,35 @@
+footer {
+  background: rgba(50, 46, 65, 1);
+}
+
+.footer__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 22px 0 5px;
+}
+
+.footer__wrap-list {
+  display: flex;
+  align-items: center;
+}
+
+.footer__wrap-list-item {
+  padding: 24px 15px;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.footer__wrap-list-item:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.footer__wrap-list-item-link {
+  color: rgba(255, 255, 255, 1);
+  transition: 0.3s;
+}
+
+.footer__wrap-list-item-link:hover {
+  color: rgba(255, 230, 0, 1);
+}

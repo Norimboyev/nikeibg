@@ -1,0 +1,65 @@
+header {
+  background: rgba(50, 46, 65, 1);
+}
+
+.header__wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__wrap-list {
+  display: flex;
+  align-items: center;
+}
+
+.header__wrap-list-item {
+  padding: 24px 15px;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.header__wrap-list-item:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.header__wrap-list-item-link {
+  color: rgba(255, 255, 255, 1);
+  transition: 0.3s;
+}
+
+.header__wrap-list-item-link:hover {
+  color: rgba(255, 230, 0, 1);
+}
+
+.banner {
+  background: url(../img/banner.png) no-repeat center/cover;
+  height: 565px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.banner__title {
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 59px;
+  color: #fff;
+}
+
+.banner__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #fff;
+}
+
+.banner__text span {
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+}
